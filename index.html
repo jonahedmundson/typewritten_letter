@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="customstyle.css">
+    <link rel="icon" href="./assets/favicon.png" type="image/x-icon">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Typewritten.</title>
+</head>
+
+
+
+<body onload="typeWriter()">
+    
+    <div class="part1">
+        <div class="div-text">
+            <p style="font-weight: lighter; font-size: large;">ORPHEUS PRESS PRESENTS</p>
+            <div style="height: auto;"><h2 id="demo"></h2></div>
+            <p style="font-weight: lighter; font-size: large;">Share something real.</p>
+            <div class="spacer"></div>
+            <a href="https://buymeacoffee.com/jonahedmundson/extras"><div class="btn">Send a Letter</div></a>
+            <div class="spacer" style="height: 20px;"></div>
+
+
+            <script>
+            var i = 0;
+            var txt = 'Custom typewritten letters, delivered anywhere in North America.';
+            var speed = 50;
+    
+            function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("demo").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+            }
+            </script>
+        </div>
+
+        <img class="homeimage" src="./assets/typewritter_cropped.jpg" style="width: auto; border-radius: 16px;">
+    </div>
+
+    <div class="part1" style="background-color: #a2959199;">
+        <div class="div-centre">
+            <p style="font-weight: lighter; font-size: larger; text-align: center;">Send</p>
+            <h3>
+                Love letters, poems, inspirational quotes, general correspondence, 
+                invitations, thank-you notes, holiday greetings, invoices, legal notices, 
+                rejection letters, get-well-soon cards, birthday cards, announcements..... 
+            </h3>
+            <div class="spacer"></div>
+            <hr style="width: min(300px, 30vw);">
+            <p style="font-weight: lighter; font-size: larger; text-align: center;">At only $0.20/word (CAD)</p>
+            <div class="spacer" style="height: 20vh;"></div>
+            <div class="icons">
+                <a href="https://linktr.ee/jonahedmundson"><img src="./assets/icons/linktree.webp"></a>
+                <a href="https://x.com/RealityCheckMag"><img src="./assets/icons/x.png"></a>
+                <a href="https://www.youtube.com/@Literary_Devices"><img src="./assets/icons/youtube.webp"></a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="part1">
+        <div class="div-text">
+            <h2>How it works:</h2>
+            <ol>
+                <li>Click the <a href="https://buymeacoffee.com/jonahedmundson/extras"><b>Send a Letter</b></a> button above</li>
+                <li>Pay</li>
+                <li>Fill out the address that you want the letter mailed to, as well as your message</li>
+                <li>In 1-2 days, I typeset your message and mail it out</li> 
+                <li>Your letter arrives!</li>
+            </ol>
+            <div class="spacer"></div>
+        </div>
+
+        <!-- <img class="homeimage" src="./assets/typewriter2-transparent.png" style="width: auto; border-radius: 16px;"> -->
+        <img class="homeimage" src="./assets/poem_cropped.jpg" style="width: auto; border-radius: 16px;">
+    </div>
+
+
+    <div style="height: fit-content; background-color: #a2959199;">
+        <div class="spacer" style="height: 10px;"></div>
+        <div class="div-centre">
+            <div class="spacer" style="height: 10px;"></div>
+            <h1 style="font-family: Moms; text-align: center;">Typewritten.</h1>
+            <div class="spacer" style="height: 10px;"></div>
+            <p style="font-weight: lighter; font-size: 60% !important; margin: 0px; text-align: center !important;">© Typewritten. All rights reserved.</p>
+            <div class="spacer" style="height: 10px;"></div>
+        </div>
+        <!-- <div class="spacer" style="height: 40px;"></div> -->
+    </div>
+
+
+</body>
+</html>
