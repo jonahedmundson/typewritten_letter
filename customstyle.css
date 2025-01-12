@@ -146,4 +146,8 @@ li {
   .icons img {
     width: 25px;
   }
+
+  ol {
+    font-size: smaller;
+  }
 }
