@@ -88,7 +88,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 ol {
-  font-size: medium;
+  font-size: larger;
   font-weight: lighter;
 }
 
@@ -109,7 +109,7 @@ li {
 
 .icons img {
   height: auto;
-  width: 30px;
+  width: 40px;
   opacity: 90%;
 }
 
